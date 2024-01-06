@@ -1,0 +1,17 @@
+# sbt specific
+target/
+project/target/
+project/project/
+
+# IDE specific
+.idea/
+.vscode/
+
+# metals specific
+.metals/
+.bloop/
+.bsp/
+**/metals.sbt
+
+# AOC specific
+src/main/resources/input*.txt
